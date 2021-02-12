@@ -19,6 +19,7 @@
 
 #home-container{
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .jumbotron{
@@ -39,6 +40,9 @@ body {
 #page-content {
   flex: 1 0 auto;
   background-color: lightgrey;
+  .container{
+    max-width: 1380px;
+  }
 }
 
 #sticky-footer {
